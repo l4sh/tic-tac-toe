@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic tac toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Gochi+Hand'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <h1>Tic Tac Toe</h1>
+
+  <form name="new-game" class="new-game" action="">
+    <p>
+      Choose your symbol
+    </p>
+
+    <input type="submit" value="X">
+    <input type="submit" value="O">
+  </form>
+
+  <div class="tic-tac-toe hidden">
+    <div>
+      <p id="message"></p>
+    </div>
+    <div class="grid">
+      <div class="row">
+        <div class="cell">
+          <input id="0" type="checkbox">
+          <label for="0"></label>
+        </div>
+        <div class="cell">
+          <input id="1" type="checkbox">
+          <label for="1"></label>
+        </div>
+        <div class="cell">
+          <input id="2" type="checkbox">
+          <label for="2"></label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cell">
+          <input id="3" type="checkbox">
+          <label for="3"></label>
+        </div>
+        <div class="cell">
+          <input id="4" type="checkbox">
+          <label for="4"></label>
+        </div>
+        <div class="cell">
+          <input id="5" type="checkbox">
+          <label for="5"></label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cell">
+          <input id="6" type="checkbox">
+          <label for="6"></label>
+        </div>
+        <div class="cell">
+          <input id="7" type="checkbox">
+          <label for="7"></label>
+        </div>
+        <div class="cell">
+          <input id="8" type="checkbox">
+          <label for="8"></label>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="options">
+      <a href="#" id="restart-game">Restart Game</a>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
